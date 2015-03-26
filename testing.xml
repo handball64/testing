@@ -9,12 +9,7 @@
       <block type="movement_forward" id="10"></block>
     </statement>
     <next>
-      <block type="movement_rightmotor" id="71" inline="true">
-        <value name="MOVRIGHT">
-          <block type="math_number" id="78">
-            <field name="NUM">100000</field>
-          </block>
-        </value>
+      <block type="movement_right" id="107">
         <next>
           <block type="movement_stop" id="88"></block>
         </next>
